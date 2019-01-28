@@ -1,0 +1,14 @@
+{
+    "server": {
+        "ip": "127.0.0.1",
+        "port": 5672,
+        "user": "guest",
+        "password": "guest"
+    },
+    "workers": [
+        {
+            "queue": 1,
+            "number": 1
+        }
+    ]
+}

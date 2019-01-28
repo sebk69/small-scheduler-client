@@ -1,0 +1,9 @@
+Package: small-scheduler-client
+Version: 1.0.0
+Section: Utilities
+Priority: extra
+Architecture: all
+Installed-Size: 144
+Maintainer: Sébastien Kus <seb@ktoi.fr>
+Depends: curl
+Description: Client for SmallScheduler

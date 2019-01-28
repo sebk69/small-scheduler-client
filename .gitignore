@@ -1,0 +1,3 @@
+var/lib/small-scheduler/composer.lock
+var/lib/small-scheduler/vendor
+.idea
