@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install composer
-curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/bin --filename=composer
+curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
 chmod 755 /usr/bin/composer
 
 # install vendor
