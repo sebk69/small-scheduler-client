@@ -65,10 +65,10 @@ Here is default configuration :
 
 It is the definition of "how to connect" to Small Scheduler server.
 
-**ip** : the ip address or url of server (or service name in Kubernetes infrastructure).
-**port** : common is 5672 (the standard port for RabbitMq queue listening port) but it can be changed in server installation
-**user** : RabbitMq user in Small Scheduler server
-**password** : RabbitMq password in Small Scheduler server
+- **ip** : the ip address or url of server (or service name in Kubernetes infrastructure).
+- **port** : common is 5672 (the standard port for RabbitMq queue listening port) but it can be changed in server installation
+- **user** : RabbitMq user in Small Scheduler server
+- **password** : RabbitMq password in Small Scheduler server
 
 ### "workers" section
 
@@ -76,8 +76,8 @@ This section define workers that can execute job.
 
 There is one object entry per queue.
 
-**queue** : The queue number to listen
-**number** : The number of parallel job can be executed on this server for the queue
+- **queue** : The queue number to listen
+- **number** : The number of parallel job can be executed on this server for the queue
 
 # Credits
 Sébastien Kus
