@@ -21,7 +21,7 @@ function process($config, $argv)
         case "start":
             echo "Starting...\n";
             // Try lock
-            if (file_exists(Config::FILE_LOCK)) {
+            if (file_exists(Config::FILE_LOCK) && || $argv[2] == "--force") {
                 echo "Service already started\n";
                 exit;
             }
