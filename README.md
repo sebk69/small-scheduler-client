@@ -4,6 +4,16 @@ Small Scheduler Client is a task executor for Small Scheduler.
 
 You can install it in your cloud servers to listen for a task to execute.
 
+## Make package
+
+Simple do these two commands
+``` bash
+$ git clone git@github.com:sebk69/small-scheduler-client.git
+$ sudo dpkg-deb --build small-scheduler-client/
+```
+
+The debian package is here : small-scheduler-client.deb
+
 ## Installation
 
 For now only Debian based distributions are supported.
