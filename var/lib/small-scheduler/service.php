@@ -4,7 +4,6 @@
  * Copyright (c) 2019 Sébastien Kus
  * Under GNU GPL Licence
  */
-
 // Includes
 require_once __DIR__ . "/Config.php";
 
@@ -20,8 +19,8 @@ function process($config, $argv)
     switch ($argv[1]) {
         case "start":
             echo "Starting...\n";
-            // Try lock
-            if (file_exists(Config::FILE_LOCK) && || $argv[2] == "--force") {
+	    // Try lock
+            if (file_exists(Config::FILE_LOCK) && (!isset($argv[2]) || $argv[2] != "--force")) {
                 echo "Service already started\n";
                 exit;
             }
