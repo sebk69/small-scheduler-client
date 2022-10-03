@@ -1,3 +1,4 @@
 var/lib/small-scheduler/composer.lock
 var/lib/small-scheduler/vendor
 .idea
+small-scheduler-client.deb

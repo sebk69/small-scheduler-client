@@ -6,10 +6,10 @@ You can install it in your cloud servers to listen for a task to execute.
 
 ## Make package
 
-Simple do these two commands
 ``` bash
+$ apt-get update && apt-get install docker docker-compose
 $ git clone git@github.com:sebk69/small-scheduler-client.git
-$ sudo dpkg-deb --build small-scheduler-client/
+$ cd small-scheduler-client && docker-compose up -d --build
 ```
 
 The debian package is here : small-scheduler-client.deb
