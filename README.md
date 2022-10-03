@@ -18,7 +18,7 @@ The debian package is here : small-scheduler-client.deb
 
 For now only Debian based distributions are supported.
 
-For Ubuntu distributions Ubuntu 12.04 to Ubuntu 18.10 are supported.
+For Ubuntu distributions Ubuntu 12.04 to Ubuntu 22.04 are supported.
 
 First install php (versions from 5.2 to 7.2 are supported) and curl
 ``` bash
